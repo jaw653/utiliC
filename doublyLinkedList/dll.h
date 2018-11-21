@@ -16,7 +16,7 @@ typedef struct dll DLL;
 extern DLL *newDLL(void (*d)(FILE *, void *));
 extern void insertDLL(DLL *list, int index, void *value);
 extern void removeDLL(DLL *list, int index);
-extern void *getElemAt(int index, DLL *list);
+extern void *getElemAt(DLL *list, int index);
 extern int sizeDLL(DLL *list);
 extern void displayDLL(FILE *, DLL *list);
 
