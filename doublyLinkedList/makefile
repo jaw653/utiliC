@@ -6,3 +6,6 @@ all: $(OBJS)
 
 dll.o: dll.c dll.h
 	gcc $(OPTS) -c dll.c
+
+clean:
+	rm *.o exec
