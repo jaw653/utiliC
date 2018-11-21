@@ -159,7 +159,7 @@ void removeDLL(DLL *list, int index)
  * @index The index to iterate to
  * @list The doubly linked list to traverse
  */
-void *getElemAt(int index, DLL *list)
+void *getElemAt(DLL *list, int index)
 {
 	assert(list->size > 0);
 
@@ -192,7 +192,7 @@ void displayDLL(FILE *fp, DLL *list)
 	int i;
 	for (i = 0; i < list->size; i++)
 	{
-		NODE *n = (NODE *) getElemAt(i, list);
+		NODE *n = (NODE *) getElemAt(list, i);
 		void *v2 = n->value;
 		list->display(fp, v2);
 	}
