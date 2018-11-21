@@ -105,7 +105,9 @@ void insertDLL(DLL *list, int index, void *value)
 }
 
 /**
- *
+ * Removes the element at the given index from the list
+ * @list The list from which to remove an element
+ * @index The index of the element to remove
  */
 void removeDLL(DLL *list, int index)
 {
