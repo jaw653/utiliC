@@ -1,6 +1,6 @@
 # Doubly Linked List
 <p> A doubly linked list implemented in C </p>
-</br>
+
 <h2> Usage: </h2>
 
 <p> To make a the data structure object and an executable to test it: <code> make </code> </p>
